@@ -46,12 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ACCESO.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="frmAuditoria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmAuditoria.Designer.cs">
+      <DependentUpon>frmAuditoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPantallaInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPantallaInicio.Designer.cs">
+      <DependentUpon>frmPantallaInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCrearCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCrearCuenta.Designer.cs">
+      <DependentUpon>frmCrearCuenta.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
@@ -61,6 +78,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAuditoria.resx">
+      <DependentUpon>frmAuditoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCrearCuenta.resx">
+      <DependentUpon>frmCrearCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPantallaInicio.resx">
+      <DependentUpon>frmPantallaInicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -83,6 +115,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DLL\DLL.csproj">
+      <Project>{af26fe52-7f52-4357-bbe5-1b88c633b466}</Project>
+      <Name>DLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

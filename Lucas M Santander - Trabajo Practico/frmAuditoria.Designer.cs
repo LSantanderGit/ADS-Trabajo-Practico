@@ -1,6 +1,6 @@
 ﻿namespace Lucas_M_Santander___Trabajo_Practico
 {
-    partial class Form1
+    partial class frmAuditoria
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmAuditoria
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "frmAuditoria";
+            this.Text = "Auditoria";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-

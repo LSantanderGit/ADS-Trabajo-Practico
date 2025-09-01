@@ -16,7 +16,7 @@ namespace Lucas_M_Santander___Trabajo_Practico
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new frmPantallaInicio());
         }
     }
 }

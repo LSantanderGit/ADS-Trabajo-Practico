@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Lucas_M_Santander___Trabajo_Practico
 {
-    public partial class Form1 : Form
+    public partial class frmAuditoria : Form
     {
-        public Form1()
+        public frmAuditoria()
         {
             InitializeComponent();
         }
