@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCrearCuenta = new System.Windows.Forms.Button();
             this.txtContrasena = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -37,25 +37,26 @@
             this.label3 = new System.Windows.Forms.Label();
             this.dtpFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnCrearCuenta
             // 
-            this.button1.Location = new System.Drawing.Point(27, 313);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 26);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Crear Cuenta";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCrearCuenta.Location = new System.Drawing.Point(27, 313);
+            this.btnCrearCuenta.Name = "btnCrearCuenta";
+            this.btnCrearCuenta.Size = new System.Drawing.Size(200, 26);
+            this.btnCrearCuenta.TabIndex = 11;
+            this.btnCrearCuenta.Text = "Crear Cuenta";
+            this.btnCrearCuenta.UseVisualStyleBackColor = true;
+            this.btnCrearCuenta.Click += new System.EventHandler(this.btnCrearCuenta_Click);
             // 
             // txtContrasena
             // 
             this.txtContrasena.Location = new System.Drawing.Point(27, 260);
             this.txtContrasena.Name = "txtContrasena";
-            this.txtContrasena.Size = new System.Drawing.Size(200, 20);
+            this.txtContrasena.Size = new System.Drawing.Size(210, 20);
             this.txtContrasena.TabIndex = 9;
             // 
             // label2
@@ -71,7 +72,7 @@
             // 
             this.txtNombre.Location = new System.Drawing.Point(27, 34);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(200, 20);
+            this.txtNombre.Size = new System.Drawing.Size(210, 20);
             this.txtNombre.TabIndex = 7;
             // 
             // label1
@@ -87,7 +88,7 @@
             // 
             this.txtApellido.Location = new System.Drawing.Point(27, 84);
             this.txtApellido.Name = "txtApellido";
-            this.txtApellido.Size = new System.Drawing.Size(200, 20);
+            this.txtApellido.Size = new System.Drawing.Size(210, 20);
             this.txtApellido.TabIndex = 13;
             // 
             // label3
@@ -103,7 +104,7 @@
             // 
             this.dtpFechaNacimiento.Location = new System.Drawing.Point(27, 138);
             this.dtpFechaNacimiento.Name = "dtpFechaNacimiento";
-            this.dtpFechaNacimiento.Size = new System.Drawing.Size(200, 20);
+            this.dtpFechaNacimiento.Size = new System.Drawing.Size(210, 20);
             this.dtpFechaNacimiento.TabIndex = 14;
             // 
             // label4
@@ -115,12 +116,12 @@
             this.label4.TabIndex = 15;
             this.label4.Text = "Fecha Nacimiento";
             // 
-            // textBox1
+            // txtUsuario
             // 
-            this.textBox1.Location = new System.Drawing.Point(27, 204);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 17;
+            this.txtUsuario.Location = new System.Drawing.Point(27, 204);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(210, 20);
+            this.txtUsuario.TabIndex = 17;
             // 
             // label5
             // 
@@ -144,15 +145,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(253, 355);
+            this.ClientSize = new System.Drawing.Size(259, 355);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dtpFechaNacimiento);
             this.Controls.Add(this.txtApellido);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCrearCuenta);
             this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtNombre);
@@ -166,7 +167,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCrearCuenta;
         private System.Windows.Forms.TextBox txtContrasena;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtNombre;
@@ -175,7 +176,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dtpFechaNacimiento;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
     }

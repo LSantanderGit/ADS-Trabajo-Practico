@@ -66,12 +66,22 @@ namespace Lucas_M_Santander___Trabajo_Practico
             return id;
         }
 
+        public DataTable Leer(string sql, List<SqlParameter> parameters = null)
+        {
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            adapter.SelectCommand = CrearComando(sql, parameters);
+            DataTable tabla = new DataTable();
+            adapter.Fill(tabla);
+            adapter.Dispose();
+            adapter = null;
+            return tabla;
+        }
+
         public SqlDataReader Leer(string sql)
         {
             SqlCommand cmd = CrearComando(sql);
             SqlDataReader lector = cmd.ExecuteReader();
             return lector;
-
         }
 
         public SqlParameter CrearParametro(string nombre, string valor)

@@ -33,7 +33,7 @@
             this.txtContrasena = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnLogearse = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnCrearCuenta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -76,22 +76,24 @@
             this.btnLogearse.TabIndex = 4;
             this.btnLogearse.Text = "Logearse";
             this.btnLogearse.UseVisualStyleBackColor = true;
+            this.btnLogearse.Click += new System.EventHandler(this.btnLogearse_Click);
             // 
-            // button1
+            // btnCrearCuenta
             // 
-            this.button1.Location = new System.Drawing.Point(21, 203);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 26);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "Crear Cuenta";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnCrearCuenta.Location = new System.Drawing.Point(21, 203);
+            this.btnCrearCuenta.Name = "btnCrearCuenta";
+            this.btnCrearCuenta.Size = new System.Drawing.Size(188, 26);
+            this.btnCrearCuenta.TabIndex = 5;
+            this.btnCrearCuenta.Text = "Crear Cuenta";
+            this.btnCrearCuenta.UseVisualStyleBackColor = true;
+            this.btnCrearCuenta.Click += new System.EventHandler(this.btnCrearCuenta_Click);
             // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(234, 269);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCrearCuenta);
             this.Controls.Add(this.btnLogearse);
             this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.label2);
@@ -111,6 +113,6 @@
         private System.Windows.Forms.TextBox txtContrasena;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnLogearse;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCrearCuenta;
     }
 }

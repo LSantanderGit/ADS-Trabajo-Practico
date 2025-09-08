@@ -97,6 +97,7 @@
             this.btnLogearJ1.TabIndex = 5;
             this.btnLogearJ1.Text = "Logearse";
             this.btnLogearJ1.UseVisualStyleBackColor = true;
+            this.btnLogearJ1.Click += new System.EventHandler(this.btnLogearJ1_Click);
             // 
             // btnDeslogearJ1
             // 
@@ -126,6 +127,7 @@
             this.btnLogearJ2.TabIndex = 11;
             this.btnLogearJ2.Text = "Logearse";
             this.btnLogearJ2.UseVisualStyleBackColor = true;
+            this.btnLogearJ2.Click += new System.EventHandler(this.btnLogearJ2_Click);
             // 
             // lblHorasJ2
             // 

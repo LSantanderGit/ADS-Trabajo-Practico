@@ -23,17 +23,17 @@ namespace DLL
 			set { turnos = value; }
 		}
 
-        private USUARIO jugador1;
+        private CUENTA jugador1;
 
-        public USUARIO Jugador1
+        public CUENTA Jugador1
         {
             get { return jugador1; }
             set { jugador1 = value; }
         }
 
-        private USUARIO jugador2;
+        private CUENTA jugador2;
 
-        public USUARIO Jugador2
+        public CUENTA Jugador2
         {
             get { return jugador2; }
             set { jugador2 = value; }

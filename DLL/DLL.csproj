@@ -42,15 +42,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ACCESO.cs" />
+    <Compile Include="CASILLERO_NUMERO.cs" />
     <Compile Include="Class1.cs" />
-    <Compile Include="ESPACIO.cs" />
-    <Compile Include="ESPACIO_MINA.cs" />
+    <Compile Include="CASILLERO.cs" />
+    <Compile Include="CASILLERO_MINA.cs" />
     <Compile Include="JUEGO.cs" />
     <Compile Include="PARTIDA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TABLERO.cs" />
     <Compile Include="TURNO.cs" />
-    <Compile Include="USUARIO.cs" />
+    <Compile Include="CUENTA.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram1.cd" />

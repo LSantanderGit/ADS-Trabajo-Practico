@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace frmLogin
+namespace Lucas_M_Santander___Trabajo_Practico
 {
-    public partial class Form1 : Form
+    public partial class frmJuego : Form
     {
-        public Form1()
+        public frmJuego()
         {
             InitializeComponent();
         }

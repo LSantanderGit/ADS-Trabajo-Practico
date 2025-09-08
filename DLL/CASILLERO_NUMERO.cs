@@ -5,7 +5,8 @@ using System.Text;
 
 namespace DLL
 {
-    public class ESPACIO_MINA : ESPACIO
+    public class CASILLERO_NUMERO : CASILLERO
     {
+
     }
 }

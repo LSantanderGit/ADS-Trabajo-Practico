@@ -7,9 +7,9 @@ namespace DLL
 {
     public class TABLERO
     {
-		private ESPACIO[] espacios;
+		private CASILLERO[] espacios;
 
-		public ESPACIO[] Espacios
+		public CASILLERO[] Espacios
 		{
 			get { return espacios; }
 			set { espacios = value; }

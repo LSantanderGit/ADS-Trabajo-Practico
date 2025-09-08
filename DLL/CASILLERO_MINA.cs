@@ -5,7 +5,7 @@ using System.Text;
 
 namespace DLL
 {
-    public class ESPACIO
+    public class CASILLERO_MINA : CASILLERO
     {
     }
 }

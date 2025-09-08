@@ -16,5 +16,17 @@ namespace Lucas_M_Santander___Trabajo_Practico
         {
             InitializeComponent();
         }
+
+        private void btnLogearJ1_Click(object sender, EventArgs e)
+        {
+            frmLogin frm = new frmLogin();
+            frm.ShowDialog();
+        }
+
+        private void btnLogearJ2_Click(object sender, EventArgs e)
+        {
+            frmLogin frm = new frmLogin();
+            frm.ShowDialog();
+        }
     }
 }
